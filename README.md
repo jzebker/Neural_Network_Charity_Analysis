@@ -26,4 +26,12 @@ Nope.
 
 • What steps did you take to try and increase model performance?
 
-I tried to change one aspect at a time and see how it affected the model.
+Different attempts included the following - one at a time was altered to see how it affected performance but changes seemed to either lower performance or make no appreciable difference:
+
+1) Re-binning the ASK_AMT and INCOME_AMT columns (each separately and together)
+
+2) Adding different numbers of neurons (tried different rules of thumb ranging from 1/2 number of input features to greater than the number of input features)
+
+3) Adding hidden layers
+
+4) Changing activation functions
