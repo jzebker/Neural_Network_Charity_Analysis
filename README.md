@@ -28,7 +28,7 @@ Nope.
 
 Different attempts included the following - one at a time was altered to see how it affected performance but changes seemed to either lower performance or make no appreciable difference:
 
-1) Re-binning the ASK_AMT and INCOME_AMT columns (each separately and together)
+1) Re-binning the (ASK_AMT)[https://github.com/jzebker/Neural_Network_Charity_Analysis/blob/main/Deliverable%203%20Opt/D3Pics/ASK_AMT_bucket.png] and (INCOME_AMT)[https://github.com/jzebker/Neural_Network_Charity_Analysis/blob/main/Deliverable%203%20Opt/D3Pics/INCOME_AMT_bucket.png] columns (each separately and (together)[https://github.com/jzebker/Neural_Network_Charity_Analysis/blob/main/Deliverable%203%20Opt/AlphabetSoupCharity_Optimization_ASK_AMT_INC_AMT_Bucket.ipynb])
 
 2) Adding different numbers of neurons (tried different rules of thumb ranging from 1/2 number of input features to greater than the number of input features)
 
