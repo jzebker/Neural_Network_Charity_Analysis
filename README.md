@@ -25,3 +25,5 @@ I chose a number of different neurons/layers/activation function combinations fo
 Nope.
 
 • What steps did you take to try and increase model performance?
+
+I tried to change one aspect at a time and see how it affected the model.
