@@ -55,3 +55,4 @@ Different attempts included the following - one at a time was altered to see how
 
 ## Summary
 I was unable to get the accuracy of the model above ~73%.  It should be noted that there is a static amount of data with relatively few features and we were looking at whether or not a charitable donation was successful or not.  I would recommend an unsupervised model that would hopefully show associations between different values or use clustering instead of taking into account the binary IS_SUCCESSFUL values in the data set.
+
