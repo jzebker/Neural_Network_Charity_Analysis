@@ -14,10 +14,24 @@ Use the features in the provided dataset to create a binary classifier that is c
 
 • How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-I chose a number of different neurons/layers/activation function combinations for the model largely because I was trying to figure out how it worked (see the included [folder](https://github.com/jzebker/Neural_Network_Charity_Analysis/tree/main/Deliverable%203%20Opt)).  My accuracy value hovered around 72-73% regardless of the numbers of neurons and hidden layers I picked.  I went with a relu function for the hidden layers and a sigmoid function for the output layers.  The specific numbers are pictured below.
+I chose a number of different neurons/layers/activation function combinations for the model largely because I was trying to figure out how it worked (see the included [folder](https://github.com/jzebker/Neural_Network_Charity_Analysis/tree/main/Deliverable%203%20Opt)).  My accuracy value hovered around 72-73% regardless of the numbers of neurons and hidden layers I picked.  I went with a relu function for the hidden layers and a sigmoid function for the output layer.  The specific numbers are pictured below.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/84994321/138534800-7b8185a6-f8e1-4aa1-b09c-6b1945b6d5ad.png">
+</p>
 
 • Were you able to achieve the target model performance?
 
 Nope.
 
 • What steps did you take to try and increase model performance?
+
+Different attempts included the following - one at a time was altered to see how it affected performance but changes seemed to either lower performance or make no appreciable difference:
+
+1) Re-binning the ASK_AMT and INCOME_AMT columns (each separately and together)
+
+2) Adding different numbers of neurons (tried different rules of thumb ranging from 1/2 number of input features to greater than the number of input features)
+
+3) Adding hidden layers
+
+4) Changing activation functions
