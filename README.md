@@ -14,7 +14,7 @@ Use the features in the provided dataset to create a binary classifier that is c
 
 • How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-I chose a number of different neurons/layers/activation function combinations for the model largely because I was trying to figure out how it worked (see the included [folder](https://github.com/jzebker/Neural_Network_Charity_Analysis/tree/main/Deliverable%203%20Opt)).  My accuracy value hovered around 72-73% regardless of the numbers of neurons and hidden layers I picked.  I went with a relu function for the hidden layers and a sigmoid function for the output layer.  The specific numbers are pictured below.
+I chose a number of different neurons/layers/activation function combinations for the model following various rules of thumb (see the included [folder](https://github.com/jzebker/Neural_Network_Charity_Analysis/tree/main/Deliverable%203%20Opt)).  My accuracy value hovered around 72-73% regardless of the numbers of neurons and hidden layers I picked.  I went with a relu function for the hidden layers and a sigmoid function for the output layer.  The specific numbers are pictured below.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/84994321/138534800-7b8185a6-f8e1-4aa1-b09c-6b1945b6d5ad.png">
@@ -52,3 +52,6 @@ Different attempts included the following - one at a time was altered to see how
 <p align="center">
   <img src="https://github.com/jzebker/Neural_Network_Charity_Analysis/blob/main/Deliverable%203%20Opt/D3Pics/Change_Activation.png?raw=true" width=500>
 </p>
+
+## Summary
+I was unable to get the accuracy of the model above ~73%.  It should be noted that there is a static amount of data with relatively few features and we were looking at whether or not a charitable donation was successful or not.  I would recommend an unsupervised model that would hopefully show associations between different values or use clustering instead of taking into account the binary IS_SUCCESSFUL values in the data set.
