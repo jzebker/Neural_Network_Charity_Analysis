@@ -30,8 +30,25 @@ Different attempts included the following - one at a time was altered to see how
 
 1) Re-binning the [ASK_AMT](https://github.com/jzebker/Neural_Network_Charity_Analysis/blob/main/Deliverable%203%20Opt/D3Pics/ASK_AMT_bucket.png) and [INCOME_AMT](https://github.com/jzebker/Neural_Network_Charity_Analysis/blob/main/Deliverable%203%20Opt/D3Pics/INCOME_AMT_bucket.png) columns (each separately and [together](https://github.com/jzebker/Neural_Network_Charity_Analysis/blob/main/Deliverable%203%20Opt/AlphabetSoupCharity_Optimization_ASK_AMT_INC_AMT_Bucket.ipynb))
 
-2) Adding different numbers of neurons (tried different rules of thumb ranging from 1/2 number of input features to greater than the number of input features)
+2) Dropping the ASK_AMT column
 
-3) Adding hidden layers
+        # Drop the non-beneficial ID columns, 'EIN' and 'NAME' and 'ASK_AMT'.
+        application_df = application_df.drop(['EIN', 'NAME', 'ASK_AMT'], axis=1)
 
-4) Changing activation functions
+3) Adding different numbers of neurons (tried different rules of thumb ranging from 1/2 number of input features to greater than the number of input features)
+
+<p align="center">
+  <img src="https://github.com/jzebker/Neural_Network_Charity_Analysis/blob/main/Deliverable%203%20Opt/D3Pics/Add_Neurons.png?raw=true" width=500>
+</p>
+
+4) Adding hidden layers
+
+<p align="center">
+  <img src="https://github.com/jzebker/Neural_Network_Charity_Analysis/blob/main/Deliverable%203%20Opt/D3Pics/Add_Hidden_Layer.png?raw=true" width=500>
+</p>
+
+5) Changing activation functions
+
+<p align="center">
+  <img src="https://github.com/jzebker/Neural_Network_Charity_Analysis/blob/main/Deliverable%203%20Opt/D3Pics/Change_Activation.png?raw=true" width=500>
+</p>
